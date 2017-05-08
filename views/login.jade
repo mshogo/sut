@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  form(method="post" action="/authenticate")
+    p email
+    input(type="email" name="email")
+    p password
+    input(type="password" name="password")
+    br
+    br
+    input(type="submit")
+
+  
