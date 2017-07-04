@@ -11,7 +11,7 @@ var index = require('./routes/index');
 var login = require('./routes/login');
 var authenticate = require('./routes/authenticate');
 var home = require('./routes/home');
-
+var loginerr = require('./routes/loginerr');
 
 var app = express();
 
@@ -35,6 +35,7 @@ app.use('/', index);
 app.use('/login', login);
 app.use('/authenticate', authenticate);
 app.use('/home', home);
+app.use('/loginerr', loginerr);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

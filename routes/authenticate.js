@@ -9,7 +9,22 @@ router.post('/', function(req, res, next) {
   if (email == "example@example.com" && password == "password") {
     res.redirect(302, "/home");
   } else {
-    res.redirect(302, "/login");
+    res.redirect(302, "/loginerr");
+  }
+  // 
+  for (var i = 0; i < 30; i++) {
+    for (var j = 0; j < 30; j++) {
+      var num = i * 10 + j;
+      if (num % 3 == 0) {
+        num += 1 << 2;
+      }
+      else if (num >= 50) {
+        num *= 2;
+      }
+      else if (num % 100 >= 50) {
+        num /= 2;
+      }
+    }
   }
 });
 
