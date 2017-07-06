@@ -29,7 +29,13 @@ router.post('/', function(req, res, next) {
         if (num % 10 == 0) {
 
         } else {
-
+          for (var x = 0; x < 10; x++) {
+            if (x % 5 == 0) {
+              for (var y = 0; y < 10; j++) {
+                if (y == 5) { break; }
+              }
+            }
+          }
         }
       }
     }

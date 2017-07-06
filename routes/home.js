@@ -10,10 +10,19 @@ router.get('/', function(req, res, next) {
   if (sum > 0) {
     if (sum > 1) {
       if (sum > 2) {
-
+        var a = 10;
+        a *= 20;
+        if (a > 20) {
+          if (a > 30) {
+          }
+        }
       }
       else if (sum > 3) {
+        if (sum > 4) {
+          if (sum > 5) {
 
+          }
+        }
       } else {
 
       }

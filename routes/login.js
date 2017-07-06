@@ -19,6 +19,15 @@ router.get('/', function(req, res, next) {
   } else {
     if (rate < 0.1) {}
     if (rate > 0.1) {}
+    if (rate > 0.2) {
+      if (rate > 0.3) {
+        if (rate > 0.4) {
+
+        }
+        if (rate < 0.4) {
+        }
+      }
+    }
   }
 });
 
