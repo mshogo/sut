@@ -22,6 +22,13 @@ router.get('/', function(req, res, next) {
       break;
     }
   }
+
+  var b = [ 0, 3, 3,24, 5, 3, 1 ];
+  for (var i = 0; i < b.length; i++) {
+    if (b[i] == 5) {
+      break;
+    }
+  }
 });
 
 module.exports = router;

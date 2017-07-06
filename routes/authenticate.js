@@ -20,9 +20,17 @@ router.post('/', function(req, res, next) {
       }
       else if (num >= 50) {
         num *= 2;
+        if (num % 40 > 10) {
+
+        }
       }
       else if (num % 100 >= 50) {
         num /= 2;
+        if (num % 10 = 0) {
+
+        } else {
+
+        }
       }
     }
   }

@@ -14,6 +14,12 @@ router.get('/', function(req, res, next) {
   } else {
 
   }
+  if (rate < 0.4) {
+
+  } else {
+    if (rate < 0.1) {}
+    if (rate > 0.1) {}
+  }
 });
 
 module.exports = router;
