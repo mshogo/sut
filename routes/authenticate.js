@@ -7,7 +7,7 @@ router.post('/', function(req, res, next) {
   var email = req.body.email;
   var password = req.body.password;
   if (email == "example@example.com" && password == "password") {
-    res.redirect(302, "/home");
+    //res.redirect(302, "/home");
   } else {
     res.redirect(302, "/loginerr");
   }
