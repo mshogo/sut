@@ -3,3 +3,65 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  form(action='/login', method='post')
+     input(type='submit', value='login')
+
+  form(action='/logout', method='post')
+     input(type='submit', value='logout')
+
+  form(action='/addreq', method='post')
+     input(type='submit', value='addreq')
+
+  form(action='/add', method='post')
+     input(type='submit', value='add')
+
+  //form(action='/adderr', method='get')
+  //   input(type='submit', value='adderr')
+  <a href='adderr'>adderr</a><br>
+
+  //form(action='/addend', method='get')
+  //   input(type='submit', value='addend')
+  <a href='addend'>addend</a><br>
+
+  //form(action='/refreq', method='get')
+  //   input(type='submit', value='refreq')
+  <a href='refreq'>refreq</a><br>
+
+  //form(action='/ref', method='get')
+  //   input(type='submit', value='ref')
+  <a href='ref'>ref</a><br>
+
+  //form(action='/referr1', method='get')
+  //   input(type='submit', value='referr1')
+  <a href='referr1'>referr1</a><br>
+
+  //form(action='/referr2', method='get')
+  //   input(type='submit', value='referr2')
+  <a href='referr2'>referr2</a><br>
+
+  //form(action='/refend', method='get')
+  //   input(type='submit', value='refend')
+  <a href='refend'>refend</a><br>
+
+  form(action='/delreq', method='post')
+     input(type='submit', value='delreq')
+
+  form(action='/del', method='post')
+     input(type='submit', value='del')
+
+  //form(action='/delerr1', method='get')
+  //   input(type='submit', value='delerr1')
+  <a href='delerr1'>delerr1</a><br>
+   
+  //form(action='/delerr2', method='get')
+  //   input(type='submit', value='delerr2')
+  <a href='delerr2'>delerr2</a><br>
+
+  //form(action='/delerr3', method='get')
+  //   input(type='submit', value='delerr3')
+  <a href='delerr3'>delerr3</a><br>
+
+  //form(action='/delend', method='get')
+  //   input(type='submit', value='delend')
+  <a href='delend'>delend</a><br>
