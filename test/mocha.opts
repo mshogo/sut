@@ -1,4 +1,4 @@
 --require should
 --reporter nyan
 --recursive
-
+--reporter-options output=testresult.xml
