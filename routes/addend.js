@@ -3,7 +3,6 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'AddEnd' });
   //res.redirect(302, '/');
 
   var sum = 0;
@@ -74,6 +73,7 @@ router.get('/', function(req, res, next) {
     }
   }
 
+  res.render('index', { title: 'AddEnd' });
 
 });
 

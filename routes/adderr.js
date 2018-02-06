@@ -3,7 +3,6 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  //res.render('index', { title: 'AddErr' });
 
 
   var sum = 0;
@@ -29,6 +28,7 @@ router.get('/', function(req, res, next) {
     }
   }
 
+  res.render('index', { title: 'AddErr' });
 });
 
 module.exports = router;

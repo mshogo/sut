@@ -3,7 +3,6 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'DelErr2' });
 
 
   var result = 10;
@@ -13,7 +12,7 @@ router.get('/', function(req, res, next) {
         if (result == 0) {
           result += 10;
         }
-        resul += 5;
+        result += 5;
         if (result > 100) {
           result -= 10;
         }
@@ -27,7 +26,7 @@ router.get('/', function(req, res, next) {
         if (result == 0) {
           result += 10;
         }
-        resul += 5;
+        result += 5;
         if (result > 100) {
           result -= 10;
         }
@@ -35,6 +34,7 @@ router.get('/', function(req, res, next) {
     }
   }
 
+  res.render('index', { title: 'DelErr2' });
 });
 
 module.exports = router;

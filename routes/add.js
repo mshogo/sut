@@ -3,7 +3,6 @@ var router = express.Router();
 
 /* GET home page. */
 router.post('/', function(req, res, next) {
-  res.render('index', { title: 'Add' });
 
   var sum = 0;
   for (var i = 0; i < 100; i++) {
@@ -48,6 +47,7 @@ router.post('/', function(req, res, next) {
         }
       }
     }
+  res.render('index', { title: 'Add' });
 });
 
 module.exports = router;
