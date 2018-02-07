@@ -3,7 +3,7 @@ var app = require('../../app');
 var req = request(app);
 
 describe('POST /add', function() {
-  describe('/', function() {
+  //describe('/', function() {
     it('shoud response text with responceCode200.', function(done) {
       var url = '/add';
       req.post(url).end(function(err, ret) {
@@ -15,5 +15,5 @@ describe('POST /add', function() {
         done();
       });
     });
-  });
+  //});
 });
