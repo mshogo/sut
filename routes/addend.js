@@ -73,7 +73,7 @@ router.get('/', function(req, res, next) {
     }
   }
 
-  res.render('index', { title: 'AddEnd' });
+  //res.render('index', { title: 'AddEnd' });
 
 });
 
