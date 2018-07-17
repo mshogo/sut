@@ -1,47 +1,16 @@
-<testsuite name="Mocha Tests" tests="18" failures="5" errors="5" skipped="0" timestamp="Tue, 17 Jul 2018 05:06:48 GMT" time="1.196">
-<testcase classname="POST /add" name="shoud response text with responceCode200." time="0"><failure>expected 404 to be 200
-AssertionError: expected 404 to be 200
-    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
-    at Assertion.value (node_modules/should/cjs/should.js:335:19)
-    at Test.&#x3C;anonymous&#x3E; (test/routes/add.test.js:14:27)
-    at Test.assert (node_modules/supertest/lib/test.js:181:6)
-    at Server.assert (node_modules/supertest/lib/test.js:131:12)
-    at emitCloseNT (net.js:1660:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)</failure></testcase>
-<testcase classname="GET /addend" name="shoud response text with responceCode200." time="0"><failure>expected 404 to be 200
-AssertionError: expected 404 to be 200
-    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
-    at Assertion.value (node_modules/should/cjs/should.js:335:19)
-    at Test.&#x3C;anonymous&#x3E; (test/routes/addend.test.js:14:27)
-    at Test.assert (node_modules/supertest/lib/test.js:181:6)
-    at Server.assert (node_modules/supertest/lib/test.js:131:12)
-    at emitCloseNT (net.js:1660:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)</failure></testcase>
-<testcase classname="GET /adderr" name="shoud response text with responceCode200." time="0.094"/>
-<testcase classname="POST /addreq" name="shoud response text with responceCode200." time="0.039"/>
-<testcase classname="POST /del" name="shoud response text with responceCode200." time="0.068"/>
-<testcase classname="GET /delend" name="shoud response text with responceCode200." time="0.064"/>
-<testcase classname="GET /delerr1" name="shoud response text with responceCode200." time="0"><failure>expected 404 to be 200
-AssertionError: expected 404 to be 200
-    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
-    at Assertion.value (node_modules/should/cjs/should.js:335:19)
-    at Test.&#x3C;anonymous&#x3E; (test/routes/delerr1.test.js:14:27)
-    at Test.assert (node_modules/supertest/lib/test.js:181:6)
-    at Server.assert (node_modules/supertest/lib/test.js:131:12)
-    at emitCloseNT (net.js:1660:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)</failure></testcase>
-<testcase classname="GET /delerr2" name="shoud response text with responceCode200." time="0.062"/>
-<testcase classname="GET /delerr3" name="shoud response text with responceCode200." time="0"><failure>expected 404 to be 200
-AssertionError: expected 404 to be 200
-    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
-    at Assertion.value (node_modules/should/cjs/should.js:335:19)
-    at Test.&#x3C;anonymous&#x3E; (test/routes/delerr3.test.js:14:27)
-    at Test.assert (node_modules/supertest/lib/test.js:181:6)
-    at Server.assert (node_modules/supertest/lib/test.js:131:12)
-    at emitCloseNT (net.js:1660:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)</failure></testcase>
-<testcase classname="POST /delreq" name="shoud response text with responceCode200." time="0.038"/>
-<testcase classname="GET /" name="shoud response text with responceCode200." time="0.059"/>
+<testsuite name="Mocha Tests" tests="18" failures="2" errors="2" skipped="0" timestamp="Tue, 17 Jul 2018 05:13:07 GMT" time="3.519">
+<testcase classname="POST /add" name="shoud response text with responceCode200." time="0.627"/>
+<testcase classname="GET /addend" name="shoud response text with responceCode200." time="2.003"><failure>Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.
+Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.</failure></testcase>
+<testcase classname="GET /adderr" name="shoud response text with responceCode200." time="0.079"/>
+<testcase classname="POST /addreq" name="shoud response text with responceCode200." time="0.055"/>
+<testcase classname="POST /del" name="shoud response text with responceCode200." time="0.08"/>
+<testcase classname="GET /delend" name="shoud response text with responceCode200." time="0.089"/>
+<testcase classname="GET /delerr1" name="shoud response text with responceCode200." time="0.034"/>
+<testcase classname="GET /delerr2" name="shoud response text with responceCode200." time="0.07"/>
+<testcase classname="GET /delerr3" name="shoud response text with responceCode200." time="0.093"/>
+<testcase classname="POST /delreq" name="shoud response text with responceCode200." time="0.021"/>
+<testcase classname="GET /" name="shoud response text with responceCode200." time="0.066"/>
 <testcase classname="POST /login" name="shoud response text with responceCode200." time="0"><failure>expected 404 to be 200
 AssertionError: expected 404 to be 200
     at Assertion.fail (node_modules/should/cjs/should.js:258:17)
@@ -51,10 +20,10 @@ AssertionError: expected 404 to be 200
     at Server.assert (node_modules/supertest/lib/test.js:131:12)
     at emitCloseNT (net.js:1660:8)
     at process._tickCallback (internal/process/next_tick.js:63:19)</failure></testcase>
-<testcase classname="POST /logout" name="shoud response text with responceCode200." time="0.022"/>
-<testcase classname="GET /ref" name="shoud response text with responceCode200." time="0.028"/>
-<testcase classname="GET /refend" name="shoud response text with responceCode200." time="0.021"/>
-<testcase classname="GET /referr1" name="shoud response text with responceCode200." time="0.022"/>
-<testcase classname="GET /referr2" name="shoud response text with responceCode200." time="0.027"/>
-<testcase classname="GET /refreq" name="shoud response text with responceCode200." time="0.029"/>
+<testcase classname="POST /logout" name="shoud response text with responceCode200." time="0.049"/>
+<testcase classname="GET /ref" name="shoud response text with responceCode200." time="0.019"/>
+<testcase classname="GET /refend" name="shoud response text with responceCode200." time="0.034"/>
+<testcase classname="GET /referr1" name="shoud response text with responceCode200." time="0.056"/>
+<testcase classname="GET /referr2" name="shoud response text with responceCode200." time="0.034"/>
+<testcase classname="GET /refreq" name="shoud response text with responceCode200." time="0.059"/>
 </testsuite>
