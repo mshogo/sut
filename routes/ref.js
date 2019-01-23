@@ -48,7 +48,7 @@ router.get('/', function(req, res, next) {
     }
   }
 
-  //res.render('index', { title: 'Ref' });
+  res.render('index', { title: 'Ref' });
 });
 
 module.exports = router;

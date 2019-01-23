@@ -1,22 +1,20 @@
-<testsuite name="Mocha Tests" tests="18" failures="2" errors="2" skipped="0" timestamp="Wed, 23 Jan 2019 06:56:26 GMT" time="4.936">
-<testcase classname="POST /add" name="shoud response text with responceCode200." time="0.296"/>
-<testcase classname="GET /addend" name="shoud response text with responceCode200." time="0.063"/>
-<testcase classname="GET /adderr" name="shoud response text with responceCode200." time="0.039"/>
-<testcase classname="POST /addreq" name="shoud response text with responceCode200." time="0.047"/>
-<testcase classname="POST /del" name="shoud response text with responceCode200." time="0.048"/>
+<testsuite name="Mocha Tests" tests="18" failures="0" errors="0" skipped="0" timestamp="Wed, 23 Jan 2019 07:02:20 GMT" time="0.973">
+<testcase classname="POST /add" name="shoud response text with responceCode200." time="0.314"/>
+<testcase classname="GET /addend" name="shoud response text with responceCode200." time="0.066"/>
+<testcase classname="GET /adderr" name="shoud response text with responceCode200." time="0.038"/>
+<testcase classname="POST /addreq" name="shoud response text with responceCode200." time="0.05"/>
+<testcase classname="POST /del" name="shoud response text with responceCode200." time="0.051"/>
 <testcase classname="GET /delend" name="shoud response text with responceCode200." time="0.059"/>
-<testcase classname="GET /delerr1" name="shoud response text with responceCode200." time="0.035"/>
-<testcase classname="GET /delerr2" name="shoud response text with responceCode200." time="0.054"/>
-<testcase classname="GET /delerr3" name="shoud response text with responceCode200." time="0.02"/>
-<testcase classname="POST /delreq" name="shoud response text with responceCode200." time="0.017"/>
-<testcase classname="GET /" name="shoud response text with responceCode200." time="0.051"/>
-<testcase classname="POST /login" name="shoud response text with responceCode200." time="0.039"/>
-<testcase classname="POST /logout" name="shoud response text with responceCode200." time="0.024"/>
-<testcase classname="GET /ref" name="shoud response text with responceCode200." time="2.002"><failure>Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.
-Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.</failure></testcase>
-<testcase classname="GET /refend" name="shoud response text with responceCode200." time="0.029"/>
-<testcase classname="GET /referr1" name="shoud response text with responceCode200." time="0.045"/>
-<testcase classname="GET /referr2" name="shoud response text with responceCode200." time="0.044"/>
-<testcase classname="GET /refreq" name="shoud response text with responceCode200." time="2.002"><failure>Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.
-Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.</failure></testcase>
+<testcase classname="GET /delerr1" name="shoud response text with responceCode200." time="0.057"/>
+<testcase classname="GET /delerr2" name="shoud response text with responceCode200." time="0.046"/>
+<testcase classname="GET /delerr3" name="shoud response text with responceCode200." time="0.025"/>
+<testcase classname="POST /delreq" name="shoud response text with responceCode200." time="0.023"/>
+<testcase classname="GET /" name="shoud response text with responceCode200." time="0.025"/>
+<testcase classname="POST /login" name="shoud response text with responceCode200." time="0.022"/>
+<testcase classname="POST /logout" name="shoud response text with responceCode200." time="0.025"/>
+<testcase classname="GET /ref" name="shoud response text with responceCode200." time="0.017"/>
+<testcase classname="GET /refend" name="shoud response text with responceCode200." time="0.039"/>
+<testcase classname="GET /referr1" name="shoud response text with responceCode200." time="0.039"/>
+<testcase classname="GET /referr2" name="shoud response text with responceCode200." time="0.031"/>
+<testcase classname="GET /refreq" name="shoud response text with responceCode200." time="0.023"/>
 </testsuite>
