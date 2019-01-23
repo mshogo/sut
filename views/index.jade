@@ -4,8 +4,16 @@ block content
   h1= title
   p Welcome to #{title}
 
-  form(action='/login', method='post')
-     input(type='submit', value='login')
+  //form(action='/login', method='post')
+  //   input(type='submit', value='login')
+  <a href='login'>login</a><br>
+
+  form(action='/authenticate', method='post')
+     input(type='submit', value='authenticate')
+
+  <a href='loginerr'>loginerr</a><br>
+
+  <a href='home'>home</a><br>
 
   form(action='/logout', method='post')
      input(type='submit', value='logout')

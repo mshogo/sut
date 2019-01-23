@@ -15,6 +15,9 @@ var fs = require('fs');
 
 var index = require('./routes/index');
 var login = require('./routes/login');
+var authenticate = require('./routes/authenticate');
+var home = require('./routes/home');
+var loginerr = require('./routes/loginerr');
 var logout = require('./routes/logout');
 var addreq = require('./routes/addreq');
 var add = require('./routes/add');
@@ -31,7 +34,6 @@ var delerr1 = require('./routes/delerr1');
 var delerr2 = require('./routes/delerr2');
 var delerr3 = require('./routes/delerr3');
 var delend = require('./routes/delend');
-
 
 var app = express();
 
@@ -57,10 +59,11 @@ app.use(logger('common', {stream: accessLogStream}));
 //app.use('/home', home);
 //app.use('/loginerr', loginerr);
 
-
-
 app.use('/', index);
 app.use('/login', login);
+app.use('/authenticate', authenticate);
+app.use('/loginerr', loginerr);
+app.use('/home', home);
 app.use('/logout', logout);
 app.use('/addreq', addreq);
 app.use('/add', add);
