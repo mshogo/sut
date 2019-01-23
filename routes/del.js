@@ -48,7 +48,7 @@ router.post('/', function(req, res, next) {
     }
   }
 
-  //res.render('index', { title: 'Del' });
+  res.render('index', { title: 'Del' });
 });
 
 module.exports = router;
