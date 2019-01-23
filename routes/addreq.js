@@ -36,7 +36,7 @@ router.post('/', function(req, res, next) {
     }
   }
 
- //res.render('index', { title: 'AddReq' });
+ res.render('index', { title: 'AddReq' });
 });
 
 module.exports = router;
