@@ -72,7 +72,7 @@ router.get('/', function(req, res, next) {
       sum += 50;
     }
   }
-  //res.render('index', { title: 'AddEnd' });
+  res.render('index', { title: 'AddEnd' });
 });
 
 module.exports = router;

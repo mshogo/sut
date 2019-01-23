@@ -49,7 +49,7 @@ router.get('/', function(req, res, next) {
   }
 
 
-  res.render('index', { title: 'DelErr1' });
+  //res.render('index', { title: 'DelErr1' });
 
 });
 
