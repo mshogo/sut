@@ -1,21 +1,22 @@
-<testsuite name="Mocha Tests" tests="18" failures="1" errors="1" skipped="0" timestamp="Wed, 23 Jan 2019 06:49:23 GMT" time="3.154">
-<testcase classname="POST /add" name="shoud response text with responceCode200." time="0.421"/>
-<testcase classname="GET /addend" name="shoud response text with responceCode200." time="0.078"/>
-<testcase classname="GET /adderr" name="shoud response text with responceCode200." time="0.044"/>
-<testcase classname="POST /addreq" name="shoud response text with responceCode200." time="0.057"/>
-<testcase classname="POST /del" name="shoud response text with responceCode200." time="0.058"/>
-<testcase classname="GET /delend" name="shoud response text with responceCode200." time="0.061"/>
-<testcase classname="GET /delerr1" name="shoud response text with responceCode200." time="0.058"/>
-<testcase classname="GET /delerr2" name="shoud response text with responceCode200." time="0.056"/>
-<testcase classname="GET /delerr3" name="shoud response text with responceCode200." time="0.028"/>
-<testcase classname="POST /delreq" name="shoud response text with responceCode200." time="0.031"/>
-<testcase classname="GET /" name="shoud response text with responceCode200." time="0.03"/>
-<testcase classname="POST /login" name="shoud response text with responceCode200." time="0.027"/>
+<testsuite name="Mocha Tests" tests="18" failures="2" errors="2" skipped="0" timestamp="Wed, 23 Jan 2019 06:56:26 GMT" time="4.936">
+<testcase classname="POST /add" name="shoud response text with responceCode200." time="0.296"/>
+<testcase classname="GET /addend" name="shoud response text with responceCode200." time="0.063"/>
+<testcase classname="GET /adderr" name="shoud response text with responceCode200." time="0.039"/>
+<testcase classname="POST /addreq" name="shoud response text with responceCode200." time="0.047"/>
+<testcase classname="POST /del" name="shoud response text with responceCode200." time="0.048"/>
+<testcase classname="GET /delend" name="shoud response text with responceCode200." time="0.059"/>
+<testcase classname="GET /delerr1" name="shoud response text with responceCode200." time="0.035"/>
+<testcase classname="GET /delerr2" name="shoud response text with responceCode200." time="0.054"/>
+<testcase classname="GET /delerr3" name="shoud response text with responceCode200." time="0.02"/>
+<testcase classname="POST /delreq" name="shoud response text with responceCode200." time="0.017"/>
+<testcase classname="GET /" name="shoud response text with responceCode200." time="0.051"/>
+<testcase classname="POST /login" name="shoud response text with responceCode200." time="0.039"/>
 <testcase classname="POST /logout" name="shoud response text with responceCode200." time="0.024"/>
-<testcase classname="GET /ref" name="shoud response text with responceCode200." time="2.001"><failure>Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.
+<testcase classname="GET /ref" name="shoud response text with responceCode200." time="2.002"><failure>Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.
 Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.</failure></testcase>
 <testcase classname="GET /refend" name="shoud response text with responceCode200." time="0.029"/>
-<testcase classname="GET /referr1" name="shoud response text with responceCode200." time="0.054"/>
-<testcase classname="GET /referr2" name="shoud response text with responceCode200." time="0.042"/>
-<testcase classname="GET /refreq" name="shoud response text with responceCode200." time="0.033"/>
+<testcase classname="GET /referr1" name="shoud response text with responceCode200." time="0.045"/>
+<testcase classname="GET /referr2" name="shoud response text with responceCode200." time="0.044"/>
+<testcase classname="GET /refreq" name="shoud response text with responceCode200." time="2.002"><failure>Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.
+Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure &#x22;done()&#x22; is called; if returning a Promise, ensure it resolves.</failure></testcase>
 </testsuite>
