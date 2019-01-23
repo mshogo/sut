@@ -48,7 +48,7 @@ router.post('/', function(req, res, next) {
       }
     }
   //res.render('index', { title: 'Add' });
-  //res.render('add', { title: 'Add' });
+  res.render('add', { title: 'Add' });
 });
 
 module.exports = router;
