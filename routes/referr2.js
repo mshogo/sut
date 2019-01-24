@@ -89,7 +89,7 @@ router.get('/', function(req, res, next) {
     }
   }
 
-  res.render('index', { title: 'RefErr2' });
+  //res.render('index', { title: 'RefErr2' });
 });
 
 module.exports = router;
