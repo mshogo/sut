@@ -47,6 +47,69 @@ router.post('/', function(req, res, next) {
         }
       }
     }
+    if (sum > 50) {
+      if (sum > 49) {
+        if (sum > 48) {
+          if (sum > 47) {
+            if (sum > 46) {
+              if (sum > 45) {
+                if (sum > 44) {
+                  if (sum > 43) {
+                    if (sum > 42) {
+                      if (sum > 41) {
+                        sum += 10;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    if (sum > 50) {
+      if (sum > 49) {
+        if (sum > 48) {
+          if (sum > 47) {
+            if (sum > 46) {
+              if (sum > 45) {
+                if (sum > 44) {
+                  if (sum > 43) {
+                    if (sum > 42) {
+                      if (sum > 41) {
+                        sum += 10;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    if (sum > 50) {
+      if (sum > 49) {
+        if (sum > 48) {
+          if (sum > 47) {
+            if (sum > 46) {
+              if (sum > 45) {
+                if (sum > 44) {
+                  if (sum > 43) {
+                    if (sum > 42) {
+                      if (sum > 41) {
+                        sum += 10;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   res.render('index', { title: 'Add' });
   //res.render('add', { title: 'Add' });
 });
