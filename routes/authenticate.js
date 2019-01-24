@@ -172,7 +172,7 @@ router.post('/', function(req, res, next) {
     }
   }
 
-  //res.render('index', { title: 'Authenticate' });
+  res.render('index', { title: 'Authenticate' });
 });
 
 module.exports = router;
